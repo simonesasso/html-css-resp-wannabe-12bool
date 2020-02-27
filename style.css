@@ -1,0 +1,18 @@
+/* debug */
+
+.container{
+  background-color: pink;
+}
+
+[class*='col-']{
+  height: 100px;
+  border: 1px solid black;
+}
+
+.cambio{
+  background-color: orange;
+}
+
+.cambio [class*='col-']{
+  border-color: white;
+}
